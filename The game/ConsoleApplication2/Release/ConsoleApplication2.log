@@ -1,0 +1,25 @@
+﻿Build started 24.9.2018 17.29.34.
+     1>Project "C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\ConsoleApplication2\ConsoleApplication2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\ConsoleApplication2\\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(12): warning C4101: 'mode' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\Release\Project.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\ConsoleApplication2\\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\Release\Project.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\Release\Project.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\Network.obj
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::IpAddress __cdecl sf::IpAddress::getLocalAddress(void)" (__imp_?getLocalAddress@IpAddress@sf@@SA?AV12@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __thiscall sf::TcpListener::accept(class sf::TcpSocket &)" (__imp_?accept@TcpListener@sf@@QAE?AW4Status@Socket@2@AAVTcpSocket@2@@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __thiscall sf::TcpListener::listen(unsigned short)" (__imp_?listen@TcpListener@sf@@QAE?AW4Status@Socket@2@G@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::TcpListener::TcpListener(void)" (__imp_??0TcpListener@sf@@QAE@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __thiscall sf::TcpSocket::receive(void *,unsigned int,unsigned int &)" (__imp_?receive@TcpSocket@sf@@QAE?AW4Status@Socket@2@PAXIAAI@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __thiscall sf::TcpSocket::send(void const *,unsigned int)" (__imp_?send@TcpSocket@sf@@QAE?AW4Status@Socket@2@PBXI@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __thiscall sf::TcpSocket::connect(class sf::IpAddress const &,unsigned short,class sf::Time)" (__imp_?connect@TcpSocket@sf@@QAE?AW4Status@Socket@2@ABVIpAddress@2@GVTime@2@@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::TcpSocket::TcpSocket(void)" (__imp_??0TcpSocket@sf@@QAE@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::TcpListener::~TcpListener(void)" (__imp_??1TcpListener@sf@@UAE@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::TcpSocket::~TcpSocket(void)" (__imp_??1TcpSocket@sf@@UAE@XZ)
+     1>C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\Release\Project.exe : fatal error LNK1120: 10 unresolved externals
+     1>Done Building Project "C:\Users\n4su\Desktop\Turhakkeet\aaaa projekti\ProjektiPeli\The game\ConsoleApplication2\ConsoleApplication2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.05

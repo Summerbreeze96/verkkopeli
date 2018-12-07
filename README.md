@@ -1,2 +1,0 @@
-# verkkopeli
-Pong network game
